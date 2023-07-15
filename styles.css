@@ -72,7 +72,6 @@ header img {
     font-weight: 700;
 }
 .services-container {
-    display: block;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -80,7 +79,7 @@ header img {
 
 }
 
-.services {
+.services, .tener-cuenta-imagen {
     margin-top: 5%;
     margin-bottom: 3%;
     width: 100%;
@@ -99,26 +98,39 @@ header img {
     padding: 5%;
     font-size: 22px;
     font-family: 'Roboto Condensed', sans-serif;
-    color: #5d9bd4;
-    text-shadow: 0px 1px 1px black;
+    text-shadow: 0px 1px 0px black;
     text-align: center;
-    
+    color: #275b8d;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.services-p:first-child {
+    color: #5d9bd4;
 }
 
 .services-p span {
-    color: #275b8d;
+    color: #5d9bd4;
 
 }
 
 .arrow {
     align-self: center;
     fill: #5d9ad492;
+    animation: float 1.7s ease-in-out infinite alternate;
+
 }
 .services-img {
     display: flex;
     position: absolute;
     width: 100vw;
     height: 240px;
+}
+
+.tener-cuenta {
+    width: 100vw;
+    height: auto;
+    margin-bottom: 3%;
+    margin-top: 5%;
 }
 .tener-cuenta img {
     height: 240px;
@@ -131,3 +143,41 @@ header img {
     font-size: 35px;
     text-align: center;
 }
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.tener-cuenta-list {
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+    padding: 5%;
+}
+
+.tener-cuenta-list li {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #275b8d;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+
+
+
+
+
+
+
+@keyframes float {
+    0% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(10px);
+    }
+  }
+  
