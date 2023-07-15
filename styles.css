@@ -79,7 +79,7 @@ header img {
 
 }
 
-.services, .tener-cuenta-imagen {
+.services, .tener-cuenta-imagen, .contacto-imagen {
     margin-top: 5%;
     margin-bottom: 3%;
     width: 100%;
@@ -87,7 +87,7 @@ header img {
 
 }
 
-.services-title {
+.services-title, .contacto-title {
     font-family: 'Roboto Condensed', sans-serif;
     color: #fff;
     font-size: 35px;
@@ -98,7 +98,6 @@ header img {
     padding: 5%;
     font-size: 22px;
     font-family: 'Roboto Condensed', sans-serif;
-    /* text-shadow: 0px 1px 0px black; */
     text-align: center;
     color: #275b8d;
     font-weight: 700;
@@ -164,6 +163,27 @@ header img {
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 3%;
+}
+
+.contacto-imagen img {
+    display: flex;
+    position: absolute;
+    width: 100vw;
+    height: 240px;
+}
+
+.consultas p {
+    padding: 2% 4%;
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    color: #5d9bd4;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.consultas strong {
+    color: #275b8d;
 }
 
 
