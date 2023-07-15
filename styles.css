@@ -98,7 +98,7 @@ header img {
     padding: 5%;
     font-size: 22px;
     font-family: 'Roboto Condensed', sans-serif;
-    text-shadow: 0px 1px 0px black;
+    /* text-shadow: 0px 1px 0px black; */
     text-align: center;
     color: #275b8d;
     font-weight: 700;
