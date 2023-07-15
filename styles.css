@@ -48,6 +48,7 @@ header {
 
 header img {
     width: 100vw;
+    height: 240px;
     display: flex;
     position: absolute;
 }
@@ -119,7 +120,8 @@ header img {
     width: 100vw;
     height: 240px;
 }
-.tener-cuenta img{
+.tener-cuenta img {
+    height: 240px;
     position: absolute;
     width: 100vw;
 }
