@@ -212,11 +212,11 @@ footer h3 {
     }
 
     .logo {
-        height: 150px;
+        height: 120px;
     }
     .logo img {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
     }
     .logo h2 {
         font-size: 55px;
@@ -234,7 +234,7 @@ footer h3 {
     }
 
     .services-p {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     svg {
@@ -247,11 +247,11 @@ footer h3 {
     }
 
     .tener-cuenta-list li {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .consultas p {
-        font-size: 35px;
+        font-size: 30px;
     }
 
 
@@ -265,12 +265,12 @@ footer h3 {
     }
 
     .services-p {
-        font-size: 45px;
+        font-size: 40px;
         padding: 3% 10%;
     }
     .first-p {
         padding: 4% 15%;
-        font-size: 45px;
+        font-size: 40px;
     }
     .tener-cuenta {
         margin-top: 0%;
@@ -282,7 +282,7 @@ footer h3 {
     }
 
     .tener-cuenta-list li {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .contacto-imagen {
