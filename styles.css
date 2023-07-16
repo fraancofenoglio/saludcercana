@@ -212,7 +212,7 @@ footer h3 {
     }
 
     .logo {
-        height: 120px;
+        height: 100px;
     }
     .logo img {
         width: 100px;
@@ -261,7 +261,7 @@ footer h3 {
 @media only screen and (min-width: 1100px) {
 
     header, .over, .services, .tener-cuenta-imagen, .contacto-imagen {
-        height: 400px;
+        height: 375px;
     }
 
     .services-p {
@@ -269,11 +269,12 @@ footer h3 {
         padding: 3% 10%;
     }
     .first-p {
-        padding: 4% 15%;
+        padding: 3% 15%;
         font-size: 40px;
     }
     .tener-cuenta {
         margin-top: 0%;
+        margin-bottom: 0%;
     }
 
     svg {
@@ -284,9 +285,16 @@ footer h3 {
     .tener-cuenta-list li {
         font-size: 35px;
     }
+    .tener-cuenta-imagen {
+        margin-bottom: 0%;
+    }
 
     .contacto-imagen {
         margin-top: 0%;
+    }
+
+    footer {
+        margin-top: 3%;
     }
 }
 
