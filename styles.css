@@ -4,12 +4,16 @@ body {
     width: 100vw;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+nav {
+    width: 100vw;
 }
 
 .logo {
@@ -43,14 +47,10 @@ body {
 header {
     display: flex;
     height: 240px;
-    width: 100vw;
-}
-
-header img {
-    width: 100vw;
-    height: 240px;
-    display: flex;
-    position: absolute;
+    width: 100%;
+    background-image: url("./assets/medico.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .over {
@@ -77,6 +77,12 @@ header img {
     flex-direction: column;
     justify-content: space-around;
 
+}
+
+.services {
+    background-image: url("./assets/rehabilitacion.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .services, .tener-cuenta-imagen, .contacto-imagen {
@@ -118,13 +124,12 @@ header img {
     animation: float 1.7s ease-in-out infinite alternate;
 
 }
-.services-img {
-    display: flex;
-    position: absolute;
-    width: 100vw;
-    height: 240px;
-}
 
+.tener-cuenta-imagen {
+    background-image: url("./assets/elementos.jpg");
+    background-position: center;
+    background-size: cover;
+}
 .tener-cuenta {
     width: 100vw;
     height: auto;
@@ -165,11 +170,10 @@ header img {
     margin-bottom: 3%;
 }
 
-.contacto-imagen img {
-    display: flex;
-    position: absolute;
-    width: 100vw;
-    height: 240px;
+.contacto-imagen {
+    background-image: url("./assets/contacto.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .consultas p {
@@ -184,6 +188,106 @@ header img {
 
 .consultas strong {
     color: #275b8d;
+}
+
+footer {
+    margin-top: 5%;
+    height: 50px;
+    width: 100%;
+    background-color: #275b8d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer h3 {
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+}
+
+@media only screen and (min-width: 800px) {
+    header, .over, .services, .tener-cuenta-imagen, .contacto-imagen {
+        height: 500px;
+    }
+
+    .logo {
+        height: 150px;
+    }
+    .logo img {
+        width: 120px;
+        height: 120px;
+    }
+    .logo h2 {
+        font-size: 55px;
+        flex-direction: row;
+    }
+    .logo span {
+        margin-right: 15px;
+    }
+
+    .over h1 {
+        font-size: 60px;
+    }
+    .services-title, .tener-cuenta-title, .contacto-title {
+        font-size: 55px;
+    }
+
+    .services-p {
+        font-size: 40px;
+    }
+
+    svg {
+        width: 64px;
+        height: 64px;
+    }
+
+    .tener-cuenta-list {
+        margin-left: 15%;
+    }
+
+    .tener-cuenta-list li {
+        font-size: 35px;
+    }
+
+    .consultas p {
+        font-size: 35px;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 1100px) {
+
+    header, .over, .services, .tener-cuenta-imagen, .contacto-imagen {
+        height: 600px;
+    }
+
+    .services-p {
+        font-size: 45px;
+        padding: 3% 10%;
+    }
+    .first-p {
+        padding: 4% 15%;
+        font-size: 45px;
+    }
+    .tener-cuenta {
+        margin-top: 0%;
+    }
+
+    svg {
+        width: 72px;
+        height: 72px;
+    }
+
+    .tener-cuenta-list li {
+        font-size: 40px;
+    }
+
+    .contacto-imagen {
+        margin-top: 0%;
+    }
 }
 
 
