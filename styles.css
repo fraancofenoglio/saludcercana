@@ -193,10 +193,10 @@ header {
 .whatsapp-button {
     position: fixed;
     display: flex;
-    width: 48px;
-    height: 48px;
+    width: 52px;
+    height: 52px;
     right: 20px;
-    bottom: 40px;
+    bottom: 32px;
 }
 
 footer {
