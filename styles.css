@@ -190,6 +190,15 @@ header {
     color: #275b8d;
 }
 
+.whatsapp-button {
+    position: fixed;
+    display: flex;
+    width: 48px;
+    height: 48px;
+    right: 20px;
+    bottom: 52px;
+}
+
 footer {
     margin-top: 5%;
     height: 50px;
@@ -252,6 +261,10 @@ footer h3 {
 
     .consultas p {
         font-size: 30px;
+    }
+    .whatsapp-button {
+        width: 72px;
+        height: 72px;
     }
 
 
