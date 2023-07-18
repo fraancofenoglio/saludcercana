@@ -303,6 +303,9 @@ footer h3 {
     .contacto-imagen {
         margin-top: 0%;
     }
+    .consultas p {
+        font-size: 35px;
+    }
 
     footer {
         margin-top: 3%;
